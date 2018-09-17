@@ -52,7 +52,7 @@ class Spect_cam_api:
 
         return self.cam_api.SetImageFormat(imgType, self.dev_name)
 
-    def save_image(self, path="../image/"):
+    def get_image(self, path="../image/"):
         """
         API: void SetImageFormat(int picType, const char *devName)
         :param path: image path
